@@ -12,7 +12,7 @@
 
     <groupId>io.swagger.codegen.v3</groupId>
     <artifactId>swagger-codegen-generators</artifactId>
-    <version>1.0.24</version>
+    <version>1.0.24-caltha-1</version>
     <packaging>jar</packaging>
 
     <build>
@@ -269,7 +269,12 @@
         <surefire-version>2.19.1</surefire-version>
         <jmockit-version>1.42</jmockit-version>
         <reflections-version>0.9.11</reflections-version>
-
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>arbor</id>
+            <url>http://arbor.caltha.pl/nexus/repository/thirdparty/</url>
+        </repository>
+    </distributionManagement>
 </project>
